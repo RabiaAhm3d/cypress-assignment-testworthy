@@ -1,0 +1,198 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 6,
+    "passes": 6,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-10-04T07:13:59.425Z",
+    "end": "2022-10-04T07:14:21.115Z",
+    "duration": 21690,
+    "testsRegistered": 6,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "32613819-c27a-4c86-bdbc-71e1e70c4fa4",
+      "title": "",
+      "fullFile": "cypress\\e2e\\LoginPage.cy.js",
+      "file": "cypress\\e2e\\LoginPage.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "adb8582c-6dfc-48ca-b48d-d341d0b49b2a",
+          "title": "LoginForm",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "verificationOfToolBarItems",
+              "fullTitle": "LoginForm verificationOfToolBarItems",
+              "timedOut": null,
+              "duration": 7798,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e4eda5fa-20b6-4289-b3a2-f9f5589ed0fd",
+              "parentUUID": "adb8582c-6dfc-48ca-b48d-d341d0b49b2a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "VerifyTextOnHomePage",
+              "fullTitle": "LoginForm VerifyTextOnHomePage",
+              "timedOut": null,
+              "duration": 1453,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4251b819-64af-46ce-962b-c3096fcdbdf0",
+              "parentUUID": "adb8582c-6dfc-48ca-b48d-d341d0b49b2a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "verifyTryForFreeButton",
+              "fullTitle": "LoginForm verifyTryForFreeButton",
+              "timedOut": null,
+              "duration": 1374,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e5475469-6e55-463e-8a89-298b85de1fff",
+              "parentUUID": "adb8582c-6dfc-48ca-b48d-d341d0b49b2a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "verifyBuyNowButton",
+              "fullTitle": "LoginForm verifyBuyNowButton",
+              "timedOut": null,
+              "duration": 1050,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "7b7db158-afa4-4049-b23a-7daa8bd7ad67",
+              "parentUUID": "adb8582c-6dfc-48ca-b48d-d341d0b49b2a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "HelpDropDOwn",
+              "fullTitle": "LoginForm HelpDropDOwn",
+              "timedOut": null,
+              "duration": 3367,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "b98ddf03-37c1-4115-b5db-0f0e554bd17d",
+              "parentUUID": "adb8582c-6dfc-48ca-b48d-d341d0b49b2a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "ScrollTotext",
+              "fullTitle": "LoginForm ScrollTotext",
+              "timedOut": null,
+              "duration": 774,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "3ae0b285-d563-4725-a057-e68f9ba52c04",
+              "parentUUID": "adb8582c-6dfc-48ca-b48d-d341d0b49b2a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e4eda5fa-20b6-4289-b3a2-f9f5589ed0fd",
+            "4251b819-64af-46ce-962b-c3096fcdbdf0",
+            "e5475469-6e55-463e-8a89-298b85de1fff",
+            "7b7db158-afa4-4049-b23a-7daa8bd7ad67",
+            "b98ddf03-37c1-4115-b5db-0f0e554bd17d",
+            "3ae0b285-d563-4725-a057-e68f9ba52c04"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15816,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "reportPagetitle": "Login Page"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
